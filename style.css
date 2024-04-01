@@ -1,0 +1,283 @@
+*{
+    margin:0px;
+    padding:0px;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+    color:white;
+    
+}
+#nav-content{
+    height:100px;
+    width:100%;
+    background-color: rgb(193, 171, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    
+}
+#nav-logo{
+    height:60px;
+    width:90px;
+}
+
+.item{
+    margin-left:82px;
+    font-weight: 600;
+    font-size:32px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-decoration: none; */
+}
+#nav-content a:hover{
+    color: rgb(153, 153, 153)
+    
+}
+#nav-content a{
+    text-decoration: none;
+    
+}
+main::before{
+    content: "";
+    position: absolute;
+    top:0;
+    background-image:url("food-bg.jpeg") ;
+    height:85%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+#home h1{
+    text-align: center;
+    font-size:35px;
+    margin-top:200px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#home input{
+    display: block;
+    height:90px;
+    width:800px;
+    margin: auto;
+    border-radius: 13px;
+  background-color: black;
+  font-size: 30px;
+  margin-top:30px ;
+  color:white;
+  text-align: center;
+  border:none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#btn-1{
+    
+    display: block;
+    height:70px;
+    width:300px;
+    margin: auto;
+    margin-top: 6px;
+    border-radius: 10px;
+    font-size:32px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+#btn-1:hover{
+    
+    background-color: blue;
+    transition: all .5s ease;
+}
+#about-content h1{
+    margin-top:70px;
+    text-align: center;
+    font-size:52px;
+}
+
+#about-main-content{
+    display: flex;
+}
+
+#head-2{
+    margin-top:100px;
+    text-align: center;
+    font-size:52px;
+
+}
+.food-image{
+    /* border: 2px solid yellow;; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+#img-1{
+    height:300px;
+    width:450px;
+}
+#img-2{
+    height:300px;
+    width:450px;
+}
+#img-1 img{
+    height:300px;
+    width:450px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+#img-2 img{
+    height:300px;
+    width:450px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.food-image .h1, p{
+    margin-top:20px;
+    text-align: center;
+    text-align:center;
+
+}
+
+.food-image .btn-1{
+    padding:10px;
+    text-align: center;
+    border-radius: 10px;
+    width:50%;
+    border: none;
+    margin-left:120px;
+    margin-top: 20px;
+    cursor: pointer;
+    
+}
+.food-image .btn-1:hover{
+    background-color: blue;
+    transition: all .4s ease-in-out;
+    
+}
+
+#secondcont{
+    margin-top: 320px;
+    display: flex   ;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#img-3{
+    height:300px;
+    width:450px;
+}
+#img-4{
+    height:300px;
+    width:450px;
+}
+#img-3 img{
+    height:300px;
+    width:450px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+#img-4 img{
+    height:300px;
+    width:450px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#secondcont .h1, p{
+    margin-top:20px;
+    text-align: center;
+    text-align:center;
+
+}
+
+#secondcont .btn-1{
+    padding:10px;
+    text-align: center;
+    border-radius: 10px;
+    width:50%;
+    border: none;
+    margin-left:120px;
+    margin-top: 20px;
+    cursor: pointer;
+    
+}
+#secondcont .btn-1:hover{
+    background-color: blue;
+    transition: all .4s ease-in-out;
+    
+}
+
+
+#about{
+    margin-top:320px;
+}
+#loaction-details{
+    margin-top: 100px;
+    font-size:21px;
+    text-align: center;
+}
+#contact-content {
+    height:500px;
+    width:800px;
+    border: 2px solid white;
+    margin:auto;
+}
+#contact-content form{
+    
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact-heading{
+    text-align: center;
+    margin-top: 30px;
+    font-size:52px;
+
+}
+
+#contact-content input{
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    width:578px;
+    font-size: 25px;
+    height:45px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: black;
+    margin: auto     ;
+}
+#contact-content label{
+    margin-top:29px;
+}
+
+#contact button{
+    padding:10px;
+    text-align: center;
+    border-radius: 10px;
+    width:50%;
+    border: none;
+    margin:auto;
+    margin-top: 20px;
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+
+}
+
+#contact button:hover{
+    background-color: blue;
+    transition: all .4s ease;
+}
+
+footer{
+    height:60px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:20px;
+    font-weight:600;
+    margin-top:30px;
+}
